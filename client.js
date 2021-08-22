@@ -1,7 +1,7 @@
 const countdown = document.querySelector('.countdown');
 
 // Set Launch Date
-const launchDate = new Date('Mar 20, 2022 13:00:00').getTime();
+const launchDate = new Date('Mar 19, 2022 9:00:00').getTime();
 // Log Milliseconds
 console.log(launchDate);
 
