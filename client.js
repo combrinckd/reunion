@@ -1,7 +1,7 @@
 const countdown = document.querySelector('.countdown');
 
 // Set Launch Date
-const launchDate = new Date('Mar 19, 2022 9:00:00').getTime();
+const launchDate = new Date('Jul 19, 2024 9:00:00').getTime();
 // Log Milliseconds
 console.log(launchDate);
 
@@ -31,6 +31,6 @@ const interval = setInterval(() => {
     clearInterval(interval);
     // Style and Output Text
     countdown.style.color = '#17A2B8';
-    countdown.innerHTML = 'Tyd vir Makietie!';
+    countdown.innerHTML = 'Tyd vir Partykie!';
   }
 }, 1000);
